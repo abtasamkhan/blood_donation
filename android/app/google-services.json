@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "114296325716",
+    "project_id": "donation-9a17a",
+    "storage_bucket": "donation-9a17a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114296325716:android:c10f2a87bb1653d9ef4fc1",
+        "android_client_info": {
+          "package_name": "com.osama.blood_donation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114296325716-tugif54bk8isq2qrohqlhd7h5tpfpq30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB43OgVA8evgGurfCX_dHLhkuvb--hZUMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114296325716-tugif54bk8isq2qrohqlhd7h5tpfpq30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
