@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:blood_donation/ui/auth/signup_screen.dart';
 import 'package:blood_donation/ui/homescreen.dart';
 import 'package:blood_donation/utils/utils.dart';

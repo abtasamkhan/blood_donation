@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:blood_donation/firebase_services.dart/splash_services.dart';
 import 'package:flutter/material.dart';
 

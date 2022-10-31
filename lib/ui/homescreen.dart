@@ -1,6 +1,7 @@
 import 'package:blood_donation/splashscreen.dart';
 import 'package:blood_donation/ui/auth/login.dart';
 import 'package:blood_donation/ui/loginscreen.dart';
+import 'package:blood_donation/ui/messagingscreen.dart';
 import 'package:blood_donation/utils/utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -95,7 +96,7 @@ class _HomeState extends State<Home> {
                             utils().toastMessage(error.toString());
                           });
                         },
-                        child: Icon(Icons.settings_outlined)),
+                        child: Icon(Icons.person_outline_rounded)),
                   ),
                 ),
               ],
@@ -779,20 +780,29 @@ class _HomeState extends State<Home> {
                         )
                       ],
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(right: 10),
-                      child: Column(
-                        children: [
-                          Icon(
-                            Icons.person_outline_rounded,
-                            size: 30,
-                            color: Colors.green.shade400,
-                          ),
-                          Text(
-                            'Profile',
-                            style: TextStyle(color: Colors.grey.shade900),
-                          )
-                        ],
+                    InkWell(
+                      onTap: (() {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MessagingScreen()),
+                        );
+                      }),
+                      child: Padding(
+                        padding: const EdgeInsets.only(right: 10),
+                        child: Column(
+                          children: [
+                            Icon(
+                              Icons.message_outlined,
+                              size: 30,
+                              color: Colors.green.shade400,
+                            ),
+                            Text(
+                              'Messaging',
+                              style: TextStyle(color: Colors.grey.shade900),
+                            )
+                          ],
+                        ),
                       ),
                     ),
                   ],

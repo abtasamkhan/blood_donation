@@ -21,12 +21,13 @@ dependencies:
   firebase_core: ^1.22.0
   firebase_auth: ^3.9.0
   fluttertoast: ^8.0.9
+  google_fonts: ^3.0.1
+  flutter_lints: ^2.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
 
 flutter:
 
